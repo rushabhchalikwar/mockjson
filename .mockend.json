@@ -1,14 +1,15 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]",
-    "address" : "string"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
+  "products": {
+    "id": "int",
+      "title": "string",
+      "price": "int",
+      "description": "string",
+      "category": "string",
+      "image": "string",
+      "sizes": [
+        
+      ],
+      "num_reviews": "int",
+      "total_stars": "int"
   }
 }
