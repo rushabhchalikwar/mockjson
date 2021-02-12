@@ -1,13 +1,13 @@
 {
-  "products": {
-    "id": "int",
-      "title": "string",
-      "price": "int",
-      "description": "string",
-      "category": "string",
-      "image": "string",
-      "sizes": "int"
-      "num_reviews": "int",
-      "total_stars": "int"
+  "Products": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
   }
 }
