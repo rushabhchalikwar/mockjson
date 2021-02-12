@@ -5,6 +5,7 @@
     "published": "boolean",
     "createdAt": "date",
     "comments": "Comment[]"
+    "address" : "string"
   },
   "Comment": {
     "body": "string",
